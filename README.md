@@ -8,31 +8,31 @@ paths.
 
 Breast-Cancer-Detection-VGG16/
 
-│-- breast_cancer_vgg16_model.keras    # Trained model file
+  │-- breast_cancer_vgg16_model.keras    # Trained model file
 
-│-- app.py                              # Flask app for prediction
+  │-- app.py                              # Flask app for prediction
 
-│-- predict_image.py                    # Script for making predictions
+  │-- predict_image.py                    # Script for making predictions
 
-│-- static/                             
+  │-- static/                             
 
-│   │-- style.css                        # CSS file for UI
+  │     │-- style.css                        # CSS file for UI
 
-│-- templates/
+  │-- templates/
 
-│   │-- index.html                       # Frontend HTML file
+  │     │-- index.html                       # Frontend HTML file
 
-│-- all programs/
+  │-- all programs/
 
-│   │-- data_cleaning.py                 # Data cleaning script
+  │     │-- data_cleaning.py                 # Data cleaning script
 
-│   │-- data_preprocessing.py            # Data preprocessing script
+  │     │-- data_preprocessing.py            # Data preprocessing script
 
-│   │-- train_model.py                    # Model training script
+  │     │-- train_model.py                    # Model training script
 
-│-- README.md                            # Project description
+  │-- README.md                            # Project description
 
-│-- requirements.txt                      # Python dependencies
+  │-- requirements.txt                      # Python dependencies
 
 
 
