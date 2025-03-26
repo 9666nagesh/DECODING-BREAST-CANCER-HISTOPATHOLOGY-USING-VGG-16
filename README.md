@@ -2,6 +2,23 @@
 Since the trained model file is **130MB**, it is stored on Google Drive.  
 📥 [Download Model from Google Drive]([your-google-drive-link](https://drive.google.com/file/d/1AGJacaxqRJA_as5X0Q-Na1x7iUs0vOjZ/view?usp=sharing))  
 
+paths.
+Breast-Cancer-Detection-VGG16/
+│-- breast_cancer_vgg16_model.keras    # Trained model file
+│-- app.py                              # Flask app for prediction
+│-- predict_image.py                    # Script for making predictions
+│-- static/                             
+│   │-- style.css                        # CSS file for UI
+│-- templates/
+│   │-- index.html                       # Frontend HTML file
+│-- all programs/
+│   │-- data_cleaning.py                 # Data cleaning script
+│   │-- data_preprocessing.py            # Data preprocessing script
+│   │-- train_model.py                    # Model training script
+│-- README.md                            # Project description
+│-- requirements.txt                      # Python dependencies
+
+
 
 This project leverages deep learning (VGG16) to classify breast cancer histopathology images into benign and malignant categories. The model is trained using transfer learning on a dataset of histopathological images, improving accuracy and efficiency in cancer diagnosis. The project includes data preprocessing, model training, prediction, and a Flask-based web app for easy image classification.
 
