@@ -25,8 +25,9 @@ train_generator = train_datagen.flow_from_directory(
 )
 
 validation_generator = test_datagen.flow_from_directory(
-    r"C:\Users\SNEHA\OneDrive\Desktop\Project1\breast"
+    r"D:\b.tech\projects\Minor Project\Project1\breast"
     target_size=img_size,
     batch_size=batch_size,
     class_mode='binary'
 )
+
