@@ -12,5 +12,6 @@ def verify_dataset(data_dir):
             print(f" - {img}")
 
 # Usage
-dataset_path = "C:\Users\SNEHA\OneDrive\Desktop\Project1\breast"
+dataset_path = "D:\b.tech\projects\Minor Project\Project1\breast"
 verify_dataset(dataset_path)
+
