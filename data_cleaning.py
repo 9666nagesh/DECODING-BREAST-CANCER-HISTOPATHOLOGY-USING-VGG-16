@@ -28,5 +28,6 @@ def clean_images(data_dir):
                 os.remove(file_path)
 
 # Usage
-dataset_path = r"C:\Users\SNEHA\OneDrive\Desktop\Project1\breast"
+dataset_path = r"D:\b.tech\projects\Minor Project\Project1\breast"
 clean_images(dataset_path)
+
